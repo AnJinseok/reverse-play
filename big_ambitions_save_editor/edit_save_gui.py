@@ -347,7 +347,7 @@ class SaveEditorScreen:
         )
         if not out:
             return
-        # 원본이 없어도 “다른 이름으로 저장”은 허용(현재는 읽기만 하므로 원본 필요)
+        # 원본이 없어도 "다른 이름으로 저장"은 허용(현재는 읽기만 하므로 원본 필요)
         if not os.path.isfile(path):
             messagebox.showerror('오류', '원본 파일을 찾을 수 없습니다.')
             return

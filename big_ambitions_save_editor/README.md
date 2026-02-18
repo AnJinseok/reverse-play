@@ -2,7 +2,15 @@
 
 `.hsg` 세이브는 **GZIP 압축 + 바이너리** 구조입니다. 이 스크립트로 Money, Energy, NetWorth 값을 수정할 수 있습니다.
 
-**비공식 팬 도구**이며, Big Ambitions 개발사(Hovgaard Games)와 제휴·승인된 것이 아닙니다. 개인 사용·교육 목적으로만 사용하고, 게임 이용약관(EULA) 및 해당 국가 법률을 확인한 후 사용할 책임은 사용자에게 있습니다.
+비공식 팬 도구이며, **GitHub 공개·포트폴리오 포함**에 대해서는 Big Ambitions 제작사(Hovgaard Games) 설립자로부터 승인을 받았습니다. 개인 사용·교육 목적으로 사용하고, 게임 이용약관(EULA) 및 해당 국가 법률을 확인한 후 사용할 책임은 사용자에게 있습니다.
+
+## 개발자 승인 (GitHub 업로드)
+
+세이브 에디터를 GitHub에 올리는 것이 게임 EULA/이용약관에 위배되는지 문의했고, **Big Ambitions 설립자(Jonas HOVG)** 로부터 업로드해도 된다는 답변을 받았습니다.
+
+> **Jonas HOVG:** "Yes, I'm the founder. Go ahead and upload it to Github. No problems :)"
+
+![Hovgaard Games Discord에서의 개발자 승인 대화](docs/permission-discord.png)
 
 ## 요구 사항
 
@@ -150,8 +158,3 @@ git push -u origin main
 
 - `.gitignore`에 의해 `__pycache__/`, `build/`, `dist/`, `*.hsg`, `*.hsg.bak` 등은 커밋에서 제외됩니다.
 - `icon.ico`는 `create_icon.py`로 생성하는 파일이므로, 올려도 되고 `.gitignore`에 넣어서 제외해도 됩니다. (이미지 원본은 `img/` 에 있음)
-
-## 다른 값 수정이 필요할 때
-
-- **Cheat Engine** 테이블을 쓰면 게임 실행 중에 돈, 에너지, 시간 등을 실시간으로 바꿀 수 있습니다.
-- 공식 포럼: [Big Ambitions Community](https://forum.bigambitionsgame.com/)
