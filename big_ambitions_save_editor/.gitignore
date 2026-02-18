@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.eggs/
+dist/
+build/
+*.egg
+
+# PyInstaller
+*.manifest
+*.spec
+
+# 가상환경
+.venv/
+venv/
+env/
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+nul
+
+# 상위 레포 클론 폴더 (reverse-play 안에 이 프로젝트 넣을 때 사용하는 클론)
+reverse-play/
+
+# 빌드 결과물 (필요 시 주석 해제)
+# dist/
+# build/
+
+# 개인 세이브 파일 (실제 게임 세이브는 올리지 않음)
+*.hsg
+*.hsg.bak
